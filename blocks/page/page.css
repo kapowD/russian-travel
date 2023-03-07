@@ -1,7 +1,7 @@
 .page {
   background-color: #2A2C2F;
   color: #fff;
-  margin: 0 auto; 
+  margin: 0 auto;
   width: 100%;
   font-family: 'Inter', sans-serif, Arial;
   box-sizing: border-box;
@@ -11,5 +11,4 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  box-sizing: border-box;
 }
