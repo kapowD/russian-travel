@@ -21,20 +21,21 @@
 
 @media screen and (max-width: 1024px) {
     .places__list  {
-        grid-gap: 48px 32px
+        grid-gap: 48px 32px;;
     }
 }
 
 @media screen and (max-width: 768px) {
     .places__list  {
-
+        grid-gap: 48px 28px;
     }
 }
 
 @media screen and (max-width: 467px) {
     .places__list  {
         grid-template-columns: 1fr;
-        grid-gap: 48px 40px;
+        grid-gap: 32px;
+        
         grid-template-areas:
             "title"
             "website"

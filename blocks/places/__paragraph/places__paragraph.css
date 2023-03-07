@@ -15,12 +15,18 @@
 
 @media screen and (max-width: 768px) {
     .places__paragraph {
-
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 163%;
         padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .places__paragraph {
+        margin: 0 auto;
+        width: calc(100% - 16px*2);
     }
 }
 
