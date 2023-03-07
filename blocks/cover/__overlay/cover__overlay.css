@@ -19,7 +19,7 @@
 .cover__overlay::before {
     content: "";
     background-color: #2A2C2F;
-    opacity: 0.5;
+    opacity: .5;
     position: absolute;
     left: 0;
     right: 0;
@@ -49,12 +49,9 @@
     .cover__overlay {
         min-height: 320px;
     }
-
 }
 
 @media screen and (max-width: 320px) {
-
-
     .cover__overlay {
         min-height: 200px;
     }
