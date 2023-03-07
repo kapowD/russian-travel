@@ -6,7 +6,6 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    background-color: #ff000061;
   }
   @media screen and (max-width: 1024px) {
     .lead {
