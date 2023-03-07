@@ -1,0 +1,16 @@
+.places__website {
+    grid-area: website;
+    align-self: end;
+    margin: 0;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1;
+    padding: 0;
+}
+@media screen and (max-width: 480px) {
+    .places__website {
+       margin: 0 auto;
+       padding: 0;
+       width: calc(100% - 16px*2);
+    }
+}

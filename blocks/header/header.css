@@ -2,7 +2,7 @@
     max-width: 1184px;
     width: calc(100% - 48px*2);
     margin: 0 auto;
-    padding: 28px 0 0;
+    padding: 28px 0 56px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -10,5 +10,10 @@
   @media screen and (max-width: 768px) {
     .header {
       width: calc(100% - 24px*2);
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .header {
+      width: calc(100% - 16px*2);
     }
   }
