@@ -1,14 +1,4 @@
 .places__list {
-    /* list-style: none;
-    font-family: 'Inter', Arial, sans-serif;
-    display: grid;
-    margin: 0;
-    padding: 0;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 12px 28px;
-    grid-template-areas:
-        "title website"
-        "image text"; */
     list-style: none;
     font-family: 'Inter', Arial, sans-serif;
     display: grid;
@@ -21,7 +11,7 @@
 
 @media screen and (max-width: 1024px) {
     .places__list  {
-        grid-gap: 48px 32px;;
+        grid-gap: 48px 32px;
     }
 }
 
