@@ -13,10 +13,7 @@
 
 @media screen and (max-width: 768px) {
     .places__url-heading {
-        font-weight: 400;
-        font-size: 12px;
         line-height: 12px;
-
         letter-spacing: 100%;
     }
 }
@@ -26,7 +23,6 @@
         width: 100%;
         row-gap: 50px;
         font-weight: 400;
-        font-size: 12px;
         line-height: 12px;
         /* identical to box height, or 100% */
 
