@@ -9,8 +9,8 @@
     z-index: 1;
     width: 100%;
 }
-
-@media screen and (max-width: 480px) {
+/* поменять прейкпоинт на 767 плюс */
+@media screen and (max-width: 767px) { 
     .cover__title {
         font-size: 32px;
         line-height: 109%;

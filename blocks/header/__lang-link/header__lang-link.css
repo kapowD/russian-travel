@@ -8,9 +8,14 @@
     line-height: 117%;
     text-align: right;
 }
+
+.header__lang-link:hover {
+    opacity: .5;
+}
+
 @media screen and (max-width: 480px) {
-    .header__lang-link  {
+    .header__lang-link {
         font-size: 18px;
         line-height: 111%;
     }
-  }
+}
