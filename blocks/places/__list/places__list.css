@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 467px) {
+@media screen and (max-width: 480px) {
     .places__list {
         grid-template-columns: 1fr;
         grid-gap: 32px;
