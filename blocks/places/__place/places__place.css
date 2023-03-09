@@ -5,7 +5,11 @@
     row-gap: 80px;
     width: 100%;
 }
-
+@media screen and (max-width: 768px) {
+    .places__place {
+        row-gap: 72px;
+    }
+}
 @media screen and (max-width: 480px) {
     .places__place {
         row-gap: 50px;
