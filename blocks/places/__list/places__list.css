@@ -1,7 +1,7 @@
 .places__list {
     list-style: none;
     display: grid;
-    grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+    grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
     grid-gap: 48px 40px;
     grid-template-areas:
         "title website"
@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 550px) {
     .places__list {
         grid-template-columns: 1fr;
         grid-gap: 32px;
