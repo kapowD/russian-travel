@@ -12,7 +12,6 @@
 
 @media screen and (max-width: 767px) {
   .lead__title {
-    /* font-size: 12vw; */
     max-width: 288px;
     font-size: 40px;
     line-height: 110%;
